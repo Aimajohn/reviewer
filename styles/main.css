@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+header{
+    margin-inline: 10px;
+    border-bottom: solid 2px rgb(201, 201, 201);
+    height: 70px;
+    color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+h1{
+    font-weight: 400;
+    font-size: 3rem;
+
+}
+label{
+    height: fit-content;
+    display: flex;
+}
+.navbarRight{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+.favourites{
+    width: 40px;
+    height: 39px;
+    padding-left: 1.7px;
+    margin-left: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    color: red;
+    
+}
+.favourites:hover{
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+#searchBar, #searchIcon{
+    background-color: white;
+    height: 40px;
+    border: solid 2px rgb(106, 8, 136) ;
+    /* border-radius: 7px; */
+    margin: none;
+}
+#searchBar{
+    width: 320px;
+    border-right: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 1.7rem;
+    color: rgb(51, 51, 51);
+    /* border-top-right-radius: 0;
+    border-bottom-right-radius: 0; */
+}
+#searchBar::-webkit-search-cancel-button{
+    position:relative;
+    right:20px;  
+
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius:10px;
+    background: red;
+}
+#searchIcon{
+    width: 40px;
+    /* border-top-left-radius: 0;
+    border-bottom-left-radius: 0; */
+    color: rgb(106, 8, 136);
+    font-size: 1.75rem;
+    margin: 0;
+}
