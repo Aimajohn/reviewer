@@ -43,6 +43,9 @@ label{
     background-color: rgb(212, 212, 212);
     cursor: pointer;
 }
+#listMovies{
+    display: flex;
+}
 #searchBar, #searchIcon{
     background-color: white;
     height: 40px;
@@ -77,4 +80,42 @@ label{
     color: rgb(106, 8, 136);
     font-size: 1.75rem;
     margin: 0;
+}
+.movieContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 30px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.moviePoster{
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 0 5px 0 gray;
+}
+.movieTitle{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.article1 , .article2 , .article3{
+    font-size: small;
+    margin: 30px;
+
+}
+.intersectionShown{
+    display: none;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px rgb(102, 102, 102);
+    font-size: xx-large;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(2, 2, 54);
+}
+
+.intersectionShownActivator{
+    display: block;
 }
